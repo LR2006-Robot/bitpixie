@@ -66,7 +66,7 @@
 sudo apt install dnsmasq libwin-hivex-perl python3-impacket
 ```
 
-在我给的文件中，已经安装好了 `bitpixie-initramfs`，完成可行的配置，可以直接使用。如果要自行修改适配本地的环境，可以在 `build.sh` 中修改，配置自己想要的工具以及版本文件，然后执行重新生成 `bitpixie-initramfs`。
+在项目给的文件中，执行 `build.sh` 文件生成 `bitpixie-initramfs`。如果要自行修改适配本地的环境，可以在 `build.sh` 中修改，配置自己想要的工具以及版本文件，然后执行重新生成 `bitpixie-initramfs`。
 
 然后，在终端输入 `ifconfig` 查询我们本机（攻击机）的虚拟网关，下面以我本机的为例子：
 ```
