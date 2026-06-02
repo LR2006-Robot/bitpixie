@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Need to start the correct init /sbin/init manually because "After extracting,
+# the kernel checks to see if rootfs contains a file "init", and if so it
+# executes it as PID 1." [1]
+#
+# [1] torvalds/linux/Documentation/filesystems/ramfs-rootfs-initramfs.rst
+#
+
+exec /sbin/init
