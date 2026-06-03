@@ -1,5 +1,7 @@
 # bitpixie
 
+[完整 blog 请点击这里](https://lr2006-robot.github.io/HardwareSecurityBlog.github.io/2026/05/14/%E5%9F%BA%E4%BA%8E%20CVE-2023-21563%20%E6%BC%8F%E6%B4%9E%E7%A0%B4%E8%A7%A3%20BitLocker%20%E5%8A%A0%E5%AF%86/)
+
 ## 主要参考
 
 - [syss的博客文章](https://blog.syss.com/posts/bitpixie/)
